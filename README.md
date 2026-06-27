@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="assets/screenshots/ventoy.png" alt="Ventoy Toolkit Hero" width="800">
+  <img src="assets/screenshots/ventoy.png" alt="Ventoy Hero" width="800">
 </p>
 
-# Ventoy Toolkit
+# Ventoy
 
-![Ventoy](https://img.shields.io/badge/Ventoy-210111?style=flat-square&logo=ventoy&logoColor=white)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kali-linux&logoColor=white)
+![Ventoy](https://img.shields.io/badge/Ventoy-210111?style=flat-square)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=flat-square&logo=nixos&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square)
 ![SystemRescue](https://img.shields.io/badge/SystemRescue-FF6600?style=flat-square&logo=linux&logoColor=white)
 ![Clonezilla](https://img.shields.io/badge/Clonezilla-27ae60?style=flat-square&logo=linux&logoColor=white)
 ![GParted](https://img.shields.io/badge/GParted-orange?style=flat-square&logo=linux&logoColor=white)
@@ -148,4 +148,3 @@ The Amnesic Incognito Live System. A security-focused Debian-based Linux distrib
 - **Download**: [Install Tails](https://tails.net/install/)
 
 ![Tails Screenshot](assets/screenshots/tails.png)
-
