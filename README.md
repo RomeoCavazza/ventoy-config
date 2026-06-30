@@ -4,18 +4,19 @@
 
 # Ventoy
 
-[![CI](https://github.com/RomeoCavazza/ventoy-config/actions/workflows/ci.yml/badge.svg)](https://github.com/RomeoCavazza/ventoy-config/actions/workflows/ci.yml)
-
-![Ventoy](https://img.shields.io/badge/Ventoy-210111?style=flat-square)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=flat-square&logo=nixos&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square)
-![SystemRescue](https://img.shields.io/badge/SystemRescue-FF6600?style=flat-square&logo=linux&logoColor=white)
-![Clonezilla](https://img.shields.io/badge/Clonezilla-27ae60?style=flat-square&logo=linux&logoColor=white)
-![GParted](https://img.shields.io/badge/GParted-orange?style=flat-square&logo=linux&logoColor=white)
-![MemTest86+](https://img.shields.io/badge/MemTest86+-red?style=flat-square&logo=linux&logoColor=white)
-![Tails](https://img.shields.io/badge/Tails-563D7C?style=flat-square&logo=tails&logoColor=white)
+<p align="left">
+  <a href="https://github.com/RomeoCavazza/ventoy-config/actions/workflows/ci.yml"><img src="https://github.com/RomeoCavazza/ventoy-config/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <img src="https://img.shields.io/badge/Ventoy-210111?style=flat-square" alt="Ventoy">
+  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white" alt="Arch Linux">
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white" alt="Kali Linux">
+  <img src="https://img.shields.io/badge/NixOS-5277C3?style=flat-square&logo=nixos&logoColor=white" alt="NixOS">
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square" alt="Windows">
+  <img src="https://img.shields.io/badge/SystemRescue-FF6600?style=flat-square&logo=linux&logoColor=white" alt="SystemRescue">
+  <img src="https://img.shields.io/badge/Clonezilla-27ae60?style=flat-square&logo=linux&logoColor=white" alt="Clonezilla">
+  <img src="https://img.shields.io/badge/GParted-orange?style=flat-square&logo=linux&logoColor=white" alt="GParted">
+  <img src="https://img.shields.io/badge/MemTest86+-red?style=flat-square&logo=linux&logoColor=white" alt="MemTest86+">
+  <img src="https://img.shields.io/badge/Tails-563D7C?style=flat-square&logo=tails&logoColor=white" alt="Tails">
+</p>
 
 Multiboot USB configuration for operating system installation, recovery, diagnostics, and maintenance workflows. The repository stores Ventoy configuration, theme assets, ISO layout conventions, and documentation for the included boot entries.
 
