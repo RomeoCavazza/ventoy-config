@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v26
+
+      - name: Validate Ventoy JSON
+        run: nix shell nixpkgs#jq -c jq empty ventoy/ventoy/ventoy.json
+
+      - name: Validate theme files
+        run: |
+          test -s ventoy/ventoy/theme/squid/theme-1366x768.txt
+          test -s ventoy/ventoy/theme/squid/theme-1920x1080.txt
+          test -s ventoy/ventoy/theme/squid/theme-2048x1080.txt
+          test -s ventoy/ventoy/theme/squid/theme-3840x2160.txt

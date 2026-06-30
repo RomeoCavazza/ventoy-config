@@ -4,6 +4,8 @@
 
 # Ventoy
 
+[![CI](https://github.com/RomeoCavazza/ventoy-config/actions/workflows/ci.yml/badge.svg)](https://github.com/RomeoCavazza/ventoy-config/actions/workflows/ci.yml)
+
 ![Ventoy](https://img.shields.io/badge/Ventoy-210111?style=flat-square)
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
