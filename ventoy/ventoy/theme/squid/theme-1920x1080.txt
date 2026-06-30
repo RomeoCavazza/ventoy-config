@@ -1,6 +1,6 @@
-# squid theme - vertical blue glass style
+# --- Squid Theme ---
 
-# Global Property
+# --- Global ---
 title-text: ""
 desktop-image: "background-1920.png"
 desktop-color: "#08111f"
@@ -12,7 +12,7 @@ terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-# Vertical centered boot menu
+# --- Boot Menu ---
 + boot_menu {
   left = 18%
   top = 14%
@@ -33,7 +33,6 @@ terminal-border: "0"
 
   selected_item_pixmap_style = "select_*.png"
 
-  # Menu holds the scrollbar
   menu_pixmap_style = "menu_*.png"
   scrollbar = true
   scrollbar_width = 18
@@ -48,7 +47,7 @@ terminal-border: "0"
   file = "info-1920.png"
 }
 
-# Countdown
+# --- Countdown ---
 + label {
   top = 88%
   left = 18%

@@ -15,14 +15,14 @@
 ![MemTest86+](https://img.shields.io/badge/MemTest86+-red?style=flat-square&logo=linux&logoColor=white)
 ![Tails](https://img.shields.io/badge/Tails-563D7C?style=flat-square&logo=tails&logoColor=white)
 
-A professional, high-performance multiboot USB toolkit designed for system administrators, developers, and security professionals. This repository contains the complete configuration for a modular boot environment, enabling seamless deployment of multiple operating systems, recovery tools, and diagnostic utilities from a single USB drive.
+Multiboot USB configuration for operating system installation, recovery, diagnostics, and maintenance workflows. The repository stores Ventoy configuration, theme assets, ISO layout conventions, and documentation for the included boot entries.
 
 - [**Ventoy Official Website**](https://www.ventoy.net)
 - [**Ventoy GitHub Repository**](https://github.com/ventoy/Ventoy)
 
 ## Project Structure
 
-The toolkit is organized into logical directories to ensure scalability and ease of maintenance.
+The repository is organized by asset type, ISO category, and Ventoy runtime configuration.
 
 ```text
 /
@@ -44,7 +44,7 @@ The toolkit is organized into logical directories to ensure scalability and ease
 ### Primary Operating Systems
 
 #### <img src="assets/arch.png" width="24"> Arch Linux
-A minimalist, lightweight, and highly customizable Linux distribution. Ideal for power users who require a lean environment.
+A minimal rolling-release Linux distribution.
 
 - **ISO**: `iso/archlinux-x86_64.iso`
 - **Documentation**: [Official Wiki](https://wiki.archlinux.org/)
@@ -55,7 +55,7 @@ A minimalist, lightweight, and highly customizable Linux distribution. Ideal for
 ---
 
 #### <img src="assets/kali.png" width="24"> Kali Linux
-The professional standard for advanced Penetration Testing and Security Auditing. Configured with a dedicated persistence file.
+A security-focused Linux distribution, configured with a dedicated persistence file.
 
 - **ISO**: `iso/kali-linux-2025.4-live-amd64.iso`
 - **Persistence**: `kali-persistence.dat`
@@ -78,7 +78,7 @@ A declarative Linux distribution built on the Nix package manager, offering repr
 ---
 
 #### <img src="assets/windows.png" width="24"> Windows 11
-The latest major release of Microsoft's operating system. Included for system deployment, recovery, and dual-boot configuration.
+Included for system deployment, recovery, and dual-boot configuration.
 
 - **ISO**: `iso/Win11_25H2_French_x64_v2.iso`
 - **Documentation**: [Official Docs](https://learn.microsoft.com/en-us/windows/)
@@ -91,7 +91,7 @@ The latest major release of Microsoft's operating system. Included for system de
 ### Recovery & Specialized Tools
 
 #### <img src="assets/windows-pe.png" width="24"> Hiren's BootCD PE
-A Windows 10 PE based emergency boot disk loaded with recovery tools, partitioning software, and antivirus utilities.
+A Windows PE emergency boot environment with recovery and partitioning tools.
 
 - **ISO**: `iso/HBCD_PE_x64.iso`
 - **Download**: [HBCD Official Website](https://www.hirensbootcd.org/download/)
@@ -101,7 +101,7 @@ A Windows 10 PE based emergency boot disk loaded with recovery tools, partitioni
 ---
 
 #### <img src="assets/rescue.png" width="24"> SystemRescue
-A Linux system rescue disk available as a bootable CD-ROM or USB stick for administrating or repairing your system and data after a crash.
+A Linux rescue environment for system repair and data recovery.
 
 - **ISO**: `iso/rescue/systemrescue.iso`
 - **Download**: [SystemRescue Download](https://www.system-rescue.org/Download/)
@@ -111,7 +111,7 @@ A Linux system rescue disk available as a bootable CD-ROM or USB stick for admin
 ---
 
 #### <img src="assets/clonezilla.png" width="24"> Clonezilla
-A partition and disk imaging/cloning program similar to Symantec Ghost. Perfect for system backup and massive deployment.
+A partition and disk imaging/cloning utility for backup and deployment workflows.
 
 - **ISO**: `iso/tools/clonezilla-live-3.2.1-9-amd64.iso`
 - **Download**: [Clonezilla Downloads](https://clonezilla.org/downloads.php/)
@@ -121,7 +121,7 @@ A partition and disk imaging/cloning program similar to Symantec Ghost. Perfect 
 ---
 
 #### <img src="assets/gparted.png" width="24"> GParted
-A free partition editor for graphically managing your disk partitions. Resize, copy, and move partitions without data loss.
+A graphical partition editor for resizing, copying, and moving disk partitions.
 
 - **ISO**: `iso/tools/gparted-live-1.6.0-3-amd64.iso`
 - **Download**: [GParted Download](https://gparted.org/download.php)
